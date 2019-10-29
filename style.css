@@ -1,0 +1,95 @@
+/* Body */
+
+/* Header */
+
+.header {
+}
+
+.pentagon {
+    margin-top: 20px;
+    margin-left: 90%;
+    transform: rotate(50deg);
+    position: relative;
+    width: 54px;
+    box-sizing: content-box;
+    border-width: 50px 18px 0;
+    border-style: solid;
+    border-color: aqua transparent;
+  }
+  .pentagon:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -85px;
+    left: -18px;
+    border-width: 0 45px 35px;
+    border-style: solid;
+    border-color: transparent transparent aqua;
+  } 
+
+/* Hello */
+
+ .hello {
+     text-align: center;
+     margin: auto;
+     margin-top: 10px;
+     padding: auto 0;
+ }
+
+ .hello h1 {
+     font-size: 50px;
+ }
+
+ .hello p {
+     font-size: 13pt;
+ }
+
+ .emoji {
+     font-size: 30px;
+ }
+
+/* Accordion */
+
+.accordion {
+   display: grid;
+   align-content: center;
+   justify-content: space-around;
+   margin-top: 35px;
+}
+
+.card {
+    width: 1000px;
+    height: 100px;
+    border: none;
+    border-radius: 0;
+    margin: 5px;
+    background-color: #fff154
+}
+
+.card-header {
+    vertical-align: center;
+    justify-content: space-around;
+    text-align: center;
+    border: none;
+    background-color: #fff154;
+}
+
+.skills img {
+    width: 600px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.contact {
+    text-align: center;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
